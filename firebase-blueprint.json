@@ -1,0 +1,10 @@
+{
+  "collections": {
+    "guests": {
+      "name": "string",
+      "message": "string",
+      "timestamp": "timestamp",
+      "attendance": "boolean"
+    }
+  }
+}

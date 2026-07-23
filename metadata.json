@@ -1,0 +1,6 @@
+{
+  "name": "浪漫婚礼电子请帖",
+  "description": "一份精美的提夫尼蓝色调婚礼电子邀请函，包含仪式倒计时、精美照片墙、酒店导航及宾客签到功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
