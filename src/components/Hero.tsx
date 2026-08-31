@@ -56,7 +56,7 @@ export default function Hero() {
           transition={{ delay: 1.8, duration: 0.8 }}
           className="text-white/90 text-lg font-serif italic tracking-widest"
         >
-          2026年10月20日 · 12:00 PM
+          2026年10月11日 · 中午12:00
         </motion.p>
       </div>
 

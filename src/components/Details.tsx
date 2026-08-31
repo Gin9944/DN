@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export default function Details() {
   const handleNavigation = () => {
     // Standard map URL that works well on mobile to trigger app selection
-    const address = encodeURIComponent('湖北省黄冈市黄州区黄州大道99号纽宾凯酒店');
+    const address = encodeURIComponent('湖北省黄冈市铂兰蒂斯宴会艺术中心香榭丽宴会厅');
     window.open(`https://api.map.baidu.com/geocoder?address=${address}&output=html&src=wedding_invite`);
   };
 
@@ -29,21 +29,21 @@ export default function Details() {
           <div className="bg-white/10 backdrop-blur-sm p-10 rounded-3xl border border-white/20 text-white flex flex-col md:flex-row justify-between gap-12">
             <div className="flex-1 space-y-8">
               <div>
-                <h2 className="text-3xl font-serif font-light mb-2">纽宾凯酒店</h2>
+                <h2 className="text-3xl font-serif font-light mb-2">铂兰蒂斯宴会艺术中心</h2>
                 <p className="text-sm opacity-80 leading-relaxed font-serif">
-                  湖北省黄冈市黄州区黄州大道99号<br />
-                  纽宾凯酒店二楼 宴会大厅
+                  湖北省黄冈市<br />
+                  香榭丽宴会厅
                 </p>
               </div>
               <div className="flex gap-4 border-t border-white/10 pt-8">
                 <div className="flex flex-col">
                   <span className="text-[10px] tracking-widest opacity-60 uppercase font-serif">Date</span>
-                  <span className="font-serif tracking-widest text-lg">2026.10.20</span>
+                  <span className="font-serif tracking-widest text-lg">2026.10.11</span>
                 </div>
                 <div className="w-[1px] h-full bg-white/10 mx-4" />
                 <div className="flex flex-col">
                   <span className="text-[10px] tracking-widest opacity-60 uppercase font-serif">Time</span>
-                  <span className="font-serif tracking-widest text-lg">12:00 PM</span>
+                  <span className="font-serif tracking-widest text-lg">中午12:00</span>
                 </div>
               </div>
             </div>

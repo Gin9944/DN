@@ -9,7 +9,7 @@ interface TimeLeft {
 }
 
 export default function Countdown() {
-  const weddingDate = new Date('2026-10-20T12:00:00').getTime();
+  const weddingDate = new Date('2026-10-11T12:00:00').getTime();
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
 
   useEffect(() => {
