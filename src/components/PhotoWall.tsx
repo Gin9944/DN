@@ -33,9 +33,9 @@ export default function PhotoWall() {
             whileHover={{ rotate: 0, scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 100 }}
             viewport={{ once: true }}
-            className="flex-shrink-0 w-72 h-96 bg-white p-3 shadow-2xl snap-center"
+            className="flex-shrink-0 w-72 bg-white p-3 shadow-2xl snap-center"
           >
-            <div className="w-full h-[85%] overflow-hidden bg-slate-100">
+            <div className="w-full aspect-[2/3] overflow-hidden bg-slate-100">
               <img
                 src={photo.url}
                 alt={`婚礼照片 ${index + 1}`}
@@ -43,7 +43,7 @@ export default function PhotoWall() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <div className="h-[15%] flex items-center justify-center">
+            <div className="h-14 flex items-center justify-center">
               <p className="text-slate-400 font-serif text-xs tracking-[0.25em] ml-1">
                 {LABELS[index] ?? `No.${String(index + 1).padStart(2, '0')}`}
               </p>

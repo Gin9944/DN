@@ -43,7 +43,7 @@ export default function Details() {
                 <div className="w-[1px] h-full bg-white/10 mx-4" />
                 <div className="flex flex-col">
                   <span className="text-[10px] tracking-widest opacity-60 uppercase font-serif">Time</span>
-                  <span className="font-serif tracking-widest text-lg">中午12:00</span>
+                  <span className="font-serif tracking-widest text-lg">11:38</span>
                 </div>
               </div>
             </div>
