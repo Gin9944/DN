@@ -11,6 +11,9 @@ const photos = Object.keys(modules)
   .sort()
   .map((path) => ({ id: path, url: modules[path] }));
 
+// 相框底部的标签（按顺序对应照片；超出部分自动回退为编号）
+const LABELS = ['初见', '同行', '许诺', '相守', '余生'];
+
 export default function PhotoWall() {
   if (photos.length === 0) return null;
 
@@ -41,8 +44,8 @@ export default function PhotoWall() {
               />
             </div>
             <div className="h-[15%] flex items-center justify-center">
-              <p className="text-slate-400 font-serif italic text-xs tracking-widest">
-                Selection {String(index + 1).padStart(2, '0')}
+              <p className="text-slate-400 font-serif text-xs tracking-[0.25em] ml-1">
+                {LABELS[index] ?? `No.${String(index + 1).padStart(2, '0')}`}
               </p>
             </div>
           </motion.div>
