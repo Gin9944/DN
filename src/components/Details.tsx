@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export default function Details() {
   const handleNavigation = () => {
     // Standard map URL that works well on mobile to trigger app selection
-    const address = encodeURIComponent('湖北省黄冈市铂兰蒂斯宴会艺术中心香榭丽宴会厅');
+    const address = encodeURIComponent('湖北省黄冈市黄州区新港大道41号铂兰蒂斯宴会艺术中心');
     window.open(`https://api.map.baidu.com/geocoder?address=${address}&output=html&src=wedding_invite`);
   };
 
@@ -31,7 +31,7 @@ export default function Details() {
               <div>
                 <h2 className="text-3xl font-serif font-light mb-2">铂兰蒂斯宴会艺术中心</h2>
                 <p className="text-sm opacity-80 leading-relaxed font-serif">
-                  湖北省黄冈市<br />
+                  湖北省黄冈市黄州区新港大道41号<br />
                   香榭丽宴会厅
                 </p>
               </div>
