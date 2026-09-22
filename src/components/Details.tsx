@@ -32,7 +32,7 @@ export default function Details() {
                 <h2 className="text-3xl font-serif font-light mb-2">铂兰蒂斯宴会艺术中心</h2>
                 <p className="text-sm opacity-80 leading-relaxed font-serif">
                   湖北省黄冈市黄州区新港大道41号<br />
-                  香榭丽宴会厅
+                  香榭丽厅
                 </p>
               </div>
               <div className="flex gap-4 border-t border-white/10 pt-8">
